@@ -29,11 +29,12 @@ text-decoration: none;
 
 }
 #container{
-    argin-top: 2%;
+    margin-top: 2%;
      margin-left: 5%;
      margin-right: 5%;
      margin-bottom: 0%;
      padding: 10px;
+     bottom: 100px;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -61,7 +62,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: left;
+    text-align: left 0;
     
 }
 footer p {
@@ -70,6 +71,7 @@ footer p {
     padding-right: 10px;
     float: right;
     font-style: italic;
+
 }
 footer a {
     color: white;
@@ -84,4 +86,18 @@ footer a:hover {
 }
 #movies{
     border-collapse: collapse;
+    width: 100%;
+    bottom: 30px;
+
+}
+#movies th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+
+}
+#movies td{
+    border: 1px solid;
+    color: #ddd;
+    padding: 8px;
 }
